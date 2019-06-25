@@ -3,7 +3,8 @@ package easy;
 import java.util.*;
 
 /**
- * 类的说明
+ * 罗马数字转整数
+ * 简单难度
  *
  * @author 张江浩
  * @version 1.00
