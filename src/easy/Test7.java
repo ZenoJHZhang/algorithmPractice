@@ -2,7 +2,6 @@ package easy;
 
 /**
  * 整数反转
- * 简单难度
  *
  * @author 张江浩
  * @version 1.00

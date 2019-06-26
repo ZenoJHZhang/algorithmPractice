@@ -2,7 +2,6 @@ package easy;
 
 /**
  * 整数转罗马数字
- * 中等难度
  *
  * @author 张江浩
  * @version 1.00

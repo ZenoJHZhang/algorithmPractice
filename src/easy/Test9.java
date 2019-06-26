@@ -2,7 +2,6 @@ package easy;
 
 /**
  * 回文数
- * 简单难度
  *
  * @author 张江浩
  * @version 1.00
@@ -23,12 +22,18 @@ public class Test9 {
     public boolean isPalindrome(int x) {
         //记录上一位
         int m = 0;
-        while (x > 0) {
-            m = m * 10 + x % 10;
-            x = x / 10;
+        int n = x;
+        while (n >= 1) {
+            m = m * 10 + n % 10;
+            n = n / 10;
         }
+        System.out.println(m);
         return m == x;
     }
 
 
+    public static void main(String[] args) {
+        Test9 test9 = new Test9();
+        System.out.println(test9.isPalindrome(1));
+    }
 }

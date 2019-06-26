@@ -4,7 +4,6 @@ import java.util.*;
 
 /**
  * 罗马数字转整数
- * 简单难度
  *
  * @author 张江浩
  * @version 1.00
