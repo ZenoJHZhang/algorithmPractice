@@ -1,4 +1,4 @@
-package easy;
+package complete;
 
 /**
  * 回文数

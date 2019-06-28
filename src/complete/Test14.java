@@ -1,4 +1,4 @@
-package easy;
+package complete;
 
 /**
  * 最长公共前缀

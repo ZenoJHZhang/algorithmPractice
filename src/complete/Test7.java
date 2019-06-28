@@ -1,4 +1,4 @@
-package easy;
+package complete;
 
 /**
  * 整数反转
