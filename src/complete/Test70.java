@@ -1,7 +1,7 @@
 package complete;
 
 /**
- * 类的说明
+ * 爬楼梯
  *
  * @author 张江浩
  * @version 1.00
