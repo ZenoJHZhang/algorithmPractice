@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a66e5c-54a3-476d-96a4-2cb09d6b3348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/complete/Test118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/complete/Test119.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/complete/Test167.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,13 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/complete/Test119.java">
+        <entry file="file://$PROJECT_DIR$/src/complete/Test167.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,14 +145,14 @@
         <option value="$PROJECT_DIR$/src/complete/Test122.java" />
         <option value="$PROJECT_DIR$/src/complete/Test118.java" />
         <option value="$PROJECT_DIR$/src/complete/Test119.java" />
+        <option value="$PROJECT_DIR$/src/complete/Test167.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="650" />
-    <option name="y" value="25" />
-    <option name="width" value="1555" />
-    <option name="height" value="1050" />
+    <option name="x" value="-9" />
+    <option name="width" value="1298" />
+    <option name="height" value="1399" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,6 +163,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,14 +192,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562387992037" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562465933885" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ZhuoJian/接口前置服务/接口前置服务/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -331,19 +327,20 @@
       <workItem from="1562158227399" duration="459000" />
       <workItem from="1562245180107" duration="470000" />
       <workItem from="1562328847054" duration="2902000" />
-      <workItem from="1562378476165" duration="2301000" />
+      <workItem from="1562378476165" duration="3285000" />
+      <workItem from="1562465175257" duration="773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40528000" />
+    <option name="totallyTimeSpent" value="42285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85893416" visible="true" weight="0.15180361" />
-      <window_info id="Structure" order="1" sideWeight="0.14106584" side_tool="true" visible="true" weight="0.15180361" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8706365" visible="true" weight="0.15330662" />
+      <window_info id="Structure" order="1" sideWeight="0.12936345" side_tool="true" visible="true" weight="0.15330662" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -352,7 +349,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3275154" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3449692" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3449692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -503,6 +500,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/complete/Test119.java" />
     <entry file="file://$PROJECT_DIR$/src/complete/Test70.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -514,6 +512,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/complete/Test122.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -552,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/complete/Test122.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/complete/Test118.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -569,13 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/complete/Test119.java">
+    <entry file="file://$PROJECT_DIR$/src/complete/Test167.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
