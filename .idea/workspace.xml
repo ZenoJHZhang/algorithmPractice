@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a66e5c-54a3-476d-96a4-2cb09d6b3348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/complete/Test167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/complete/Test169.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/complete/Test70.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="28" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/complete/Test121.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/complete/Test118.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="264">
               <caret line="13" selection-start-line="13" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,11 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/complete/Test167.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="748">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/complete/Test169.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="14" selection-start-line="14" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,13 +146,14 @@
         <option value="$PROJECT_DIR$/src/complete/Test118.java" />
         <option value="$PROJECT_DIR$/src/complete/Test119.java" />
         <option value="$PROJECT_DIR$/src/complete/Test167.java" />
+        <option value="$PROJECT_DIR$/src/complete/Test169.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="1298" />
-    <option name="height" value="1399" />
+    <option name="x" value="-10" />
+    <option name="width" value="1299" />
+    <option name="height" value="1400" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -163,7 +164,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,12 +192,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562465933885" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562587538517" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ZhuoJian/接口前置服务/接口前置服务/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -220,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test118">
+  <component name="RunManager" selected="Application.Test169">
     <configuration name="Test118" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="complete.Test118" />
       <module name="algorithmPractice" />
@@ -234,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="complete.Test27" />
+    <configuration name="Test169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="complete.Test169" />
       <module name="algorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="promote.*" />
+          <option name="PATTERN" value="complete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,19 +288,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test27" />
       <item itemvalue="Application.Test38" />
       <item itemvalue="Application.Test6" />
       <item itemvalue="Application.Test70" />
       <item itemvalue="Application.Test118" />
+      <item itemvalue="Application.Test169" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test169" />
         <item itemvalue="Application.Test118" />
         <item itemvalue="Application.Test70" />
         <item itemvalue="Application.Test6" />
         <item itemvalue="Application.Test38" />
-        <item itemvalue="Application.Test27" />
       </list>
     </recent_temporary>
   </component>
@@ -329,18 +330,19 @@
       <workItem from="1562328847054" duration="2902000" />
       <workItem from="1562378476165" duration="3285000" />
       <workItem from="1562465175257" duration="773000" />
+      <workItem from="1562586726324" duration="844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42285000" />
+    <option name="totallyTimeSpent" value="43129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8706365" visible="true" weight="0.15330662" />
-      <window_info id="Structure" order="1" sideWeight="0.12936345" side_tool="true" visible="true" weight="0.15330662" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86259544" visible="true" weight="0.15480962" />
+      <window_info id="Structure" order="1" sideWeight="0.13740458" side_tool="true" visible="true" weight="0.15480962" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -348,14 +350,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3275154" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499499" weight="0.3275154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3449692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500501" side_tool="true" visible="true" weight="0.3275154" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3275154" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -522,6 +524,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/complete/Test118.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" selection-start-line="13" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/complete/Test14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -557,20 +569,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/complete/Test118.java">
+    <entry file="file://$PROJECT_DIR$/src/complete/Test167.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="13" selection-start-line="13" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="748">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/complete/Test167.java">
+    <entry file="file://$PROJECT_DIR$/src/complete/Test169.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="70">
+          <caret line="14" selection-start-line="14" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
