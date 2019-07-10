@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a66e5c-54a3-476d-96a4-2cb09d6b3348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/promote/Test136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/complete/Test202.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/complete/Test122.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/complete/Test118.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,17 +38,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/complete/Test169.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
+            <state relative-caret-position="308">
               <caret line="14" selection-start-line="14" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/promote/Test136.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="290">
+              <caret line="15" selection-start-line="15" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/complete/Test202.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/complete/Test169.java" />
         <option value="$PROJECT_DIR$/src/complete/Test136.java" />
         <option value="$PROJECT_DIR$/src/promote/Test136.java" />
+        <option value="$PROJECT_DIR$/src/complete/Test202.java" />
       </list>
     </option>
   </component>
@@ -165,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,13 +199,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562678163436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562765296591" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ZhuoJian/接口前置服务/接口前置服务/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -223,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test169">
+  <component name="RunManager" selected="Application.Test202">
     <configuration name="Test118" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="complete.Test118" />
       <module name="algorithmPractice" />
@@ -250,8 +254,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="complete.Test38" />
+    <configuration name="Test202" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="promote.Test202" />
       <module name="algorithmPractice" />
       <extension name="coverage">
         <pattern>
@@ -290,19 +294,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test38" />
       <item itemvalue="Application.Test6" />
       <item itemvalue="Application.Test70" />
       <item itemvalue="Application.Test118" />
       <item itemvalue="Application.Test169" />
+      <item itemvalue="Application.Test202" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test202" />
         <item itemvalue="Application.Test169" />
         <item itemvalue="Application.Test118" />
         <item itemvalue="Application.Test70" />
         <item itemvalue="Application.Test6" />
-        <item itemvalue="Application.Test38" />
       </list>
     </recent_temporary>
   </component>
@@ -333,19 +337,20 @@
       <workItem from="1562378476165" duration="3285000" />
       <workItem from="1562465175257" duration="773000" />
       <workItem from="1562586726324" duration="844000" />
-      <workItem from="1562677084512" duration="967000" />
+      <workItem from="1562677084512" duration="1331000" />
+      <workItem from="1562763431461" duration="1761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44096000" />
+    <option name="totallyTimeSpent" value="46221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8610687" visible="true" weight="0.15681362" />
-      <window_info id="Structure" order="1" sideWeight="0.1389313" side_tool="true" visible="true" weight="0.15681362" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85893416" visible="true" weight="0.15881763" />
+      <window_info id="Structure" order="1" sideWeight="0.14106584" side_tool="true" visible="true" weight="0.15881763" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -354,13 +359,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499499" weight="0.3275154" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3449692" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3449692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500501" side_tool="true" visible="true" weight="0.3275154" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500501" side_tool="true" weight="0.3275154" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3275154" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -390,11 +395,32 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/complete/Test202.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>set.contains(result)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!set.contains(result)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result != 1 &amp;&amp; !set.contains(result)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>i</expression-string>
         <language-id>JAVA</language-id>
@@ -422,26 +448,6 @@
       </expression>
       <expression>
         <expression-string>split.length</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>point == '.' &amp;&amp; point == c &amp;&amp; lianDian == 2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>list.get(i).equals(&quot;..&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>r.remove(q - 1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>q</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -544,6 +550,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/complete/Test169.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/complete/Test14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -579,17 +592,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/complete/Test169.java">
+    <entry file="file://$PROJECT_DIR$/src/promote/Test136.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="14" selection-start-line="14" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="290">
+          <caret line="15" selection-start-line="15" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/promote/Test136.java">
+    <entry file="file://$PROJECT_DIR$/src/complete/Test202.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="383">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
