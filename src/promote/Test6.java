@@ -14,7 +14,7 @@ package promote;
 public class Test6 {
     public String convert(String s, int numRows) {
        if (numRows == 1){
-           return s;
+           return s; 
        }
        //行数 ，防止字符串不够一列
        int line = Math.min(s.length(),numRows);
