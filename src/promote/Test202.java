@@ -34,7 +34,6 @@ public class Test202 {
     }
 
     public static void main(String[] args) {
-        Test202 test202 = new Test202();
-        System.out.println(test202.isHappy(19));
+        System.out.println(4&3);
     }
 }
