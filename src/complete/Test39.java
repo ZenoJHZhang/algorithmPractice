@@ -1,5 +1,7 @@
 package complete;
 
+import importtest.Test3;
+
 import java.util.*;
 
 /**
@@ -11,46 +13,42 @@ import java.util.*;
  */
 public class Test39 {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-
-        Map<Integer, Set<List<Integer>>> tempMap = new HashMap<>();
-
         Arrays.sort(candidates);
-
-        int len = candidates.length;
-
+        HashMap<Integer,List<List<Integer>>> map = new HashMap<>();
         for (int i = 1; i <= target; i++) {
-            tempMap.put(i,new HashSet<>());
-            for (int candidate : candidates) {
-                if (candidate == i) {
-                    List<Integer> list = new LinkedList<>();
-                    list.add(candidate);
-                    tempMap.get(i).add(list);
-                } else if (candidate < i) {
-                    int key = i - candidate;
-                    Set<List<Integer>> set = tempMap.get(key);
-                    if (set.size() != 0) {
-                        for (List<Integer> list : set
-                        ) {
-                            List<Integer> integerList = new LinkedList<>(list);
-                            integerList.add(candidate);
-                            Collections.sort(integerList);
-                            tempMap.get(i).add(integerList);
+            Set<List<Integer>> res = new HashSet<>();
+            for (int t:candidates
+                 ) {
+                if (i == t){
+                  List<Integer> a = new LinkedList<>();
+                  a.add(t);
+                  res.add(a);
+                }
+                else if (i > t){
+                    int n = i - t;
+                    boolean key = map.containsKey(n);
+                    if (key){
+                        List<List<Integer>> list = map.get(n);
+                        for (List<Integer> l: list
+                             ) {
+                            List<Integer> s = new LinkedList<>(l);
+                            s.add(t);
+                            Collections.sort(s);
+                            res.add(s);
                         }
                     }
                 }
-
+                map.put(i,new LinkedList<>(res));
             }
         }
-        Set<List<Integer>> listSet = tempMap.get(target);
-        return new LinkedList<>(listSet);
-    }
 
+        return map.get(target);
+    }
 
     public static void main(String[] args) {
         Test39 test39 = new Test39();
-        int [] c = new int[]{2,3,7};
-        int target = 7;
-        List<List<Integer>> list = test39.combinationSum(c, target);
+        int [] nums = new  int[]{2,3,6,7};
+        List<List<Integer>> list = test39.combinationSum(nums, 0);
         System.out.println(list);
     }
 }
