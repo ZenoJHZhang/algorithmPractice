@@ -9,7 +9,7 @@ package paixu;
  * @date 2020/2/6 16:08
  */
 public class XuanZe {
-    public static int[] a(int [] array){
+    public static void a(int [] array){
         for (int i = 0; i < array.length - 1 ; i++) {
             int min = array[i];
             int minIndex = i;
@@ -23,6 +23,5 @@ public class XuanZe {
             array[minIndex] = array[i];
             array[i] = t;
         }
-        return array;
     }
 }

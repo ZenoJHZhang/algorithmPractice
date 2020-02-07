@@ -8,7 +8,7 @@ package paixu;
  * @date 2020/2/6 15:53
  */
 public class MaoPao {
-    public static int[] a(int[] array) {
+    public static void a(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = i; j < array.length - 1; j++) {
                 int before = array[j];
@@ -20,6 +20,5 @@ public class MaoPao {
                 }
             }
         }
-        return array;
     }
 }

@@ -11,7 +11,7 @@ package paixu;
  * @date 2020/2/6 16:49
  */
 public class XiEr {
-    public static int [] a (int [] array){
+    public static void a (int [] array){
         int incr = array.length / 2;
         while (incr >= 1){
             //1.选出各组的起始点
@@ -31,6 +31,5 @@ public class XiEr {
                 incr = incr / 2;
             }
         }
-        return array;
     }
 }

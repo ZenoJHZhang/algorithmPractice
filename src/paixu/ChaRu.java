@@ -15,7 +15,7 @@ package paixu;
  * @date 2020/2/6 16:23
  */
 public class ChaRu {
-    public static int[] a(int[] array){
+    public static void  a(int[] array){
         //第N趟
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = i + 1; j > 0 ; j--) {
@@ -29,6 +29,5 @@ public class ChaRu {
                 }
             }
         }
-        return array;
     }
 }
